@@ -1,4 +1,4 @@
-package xyz.koiduste.calcuroid2.engine;
+package xyz.koiduste.calcuroid2;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -14,4 +14,6 @@ public class CalcuroidReceiver extends BroadcastReceiver {
         // an Intent broadcast.
         throw new UnsupportedOperationException("Not yet implemented");
     }
+
+
 }
