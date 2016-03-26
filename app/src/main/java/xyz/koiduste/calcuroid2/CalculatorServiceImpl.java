@@ -5,7 +5,6 @@ import android.databinding.ObservableField;
 
 import org.parceler.Parcel;
 
-
 /**
  * Created by marko on 3/10/16.
  */
@@ -42,7 +41,6 @@ public class CalculatorServiceImpl extends MathServiceImpl implements Calculator
             return 0;
         } else return Double.parseDouble(this.resultText.get());
        // TODO! Error handling
-
     }
 
     @Override
@@ -76,7 +74,7 @@ public class CalculatorServiceImpl extends MathServiceImpl implements Calculator
                 //TODO Error handling
                 break;
         }
-        //TODO operandText.set(""); //maybex
+        //TODO operandText.set(""); //maybe
     }
 
     @Override
