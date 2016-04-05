@@ -8,13 +8,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <receiver
-            android:name="CalcuroidReceiver"
-            android:enabled="true"
-            android:exported="true">
+            android:name="CalcuroidReceiver">
             <intent-filter>
-                <action android:name="xyz.koiduste.CALCULATE">
-                </action>
+                <action android:name="xyz.koiduste.CALCULATE"/>
             </intent-filter>
         </receiver>
     </application>
